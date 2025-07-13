@@ -9,7 +9,7 @@ This page has all of the different installation directions and packages: https:/
 
 # Windows Installation
 
-1. Go to “https://nmap.org/book/inst-windows.html” and follow the directions.
+1. Go to https://nmap.org/book/inst-windows.html and follow the directions.
 
 # Linux Installlation
 
