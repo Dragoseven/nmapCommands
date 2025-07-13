@@ -1,7 +1,8 @@
 # nmapCommands
 nmap is a great tool for scanning hosts, domains, networks, and everything in-between. It is useful for conducting reconnaissance on target systems, network monitoring, troubleshooting, and vulnerability testing. When I was first getting into Linux and nmap, I was more inclined to use Zenmap on Windows because I didn’t fully understand the CLI and all of its switches/structure - so the GUI seemed like a more intuitive version of the software. As a beginner, that is fine. I will attempt to explain the structure and possible inputs of nmap commands to make it less daunting from a beginner standpoint - and I will also include some uncommon and complex commands with explanations attached to each. My end goal is to create a directory of commands that anyone can download and use directly into a terminal - with a description attached to each one.
 
-# All Platforms Download
+
+# All Platforms Download / Installation
 
 This page has all of the different installation directions and packages: https://nmap.org/download.html
 
@@ -50,3 +51,22 @@ sudo yum install nmap`
 **Alpine Linux:**`sudo apk add nmap`
 
 **OpenSUSE:**`sudo zypper install nmap`
+
+
+# Options Menu
+
+In your terminal, type 
+
+```bash
+nmap
+```
+
+```bash
+nmap -h
+```
+
+This will display some of the most commonly used nmap commands and a description of the function and general overview of how they function
+
+*Note* - The commands with a “-” before them are called “switches”. Ex. -sL or -A
+
+*Note* - In regards to the options menu “It helps people remember the most common options, but is no substitute for the in-depth documentation in the rest of this manual. Some obscure options aren't even included here.” (https://nmap.org/book/man-briefoptions.html)
