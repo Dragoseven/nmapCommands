@@ -55,11 +55,12 @@ sudo yum install nmap`
 
 # Options Menu
 
-In your terminal, type 
+In your terminal, type:
 
 ```bash
 nmap
 ```
+Or:
 
 ```bash
 nmap -h
