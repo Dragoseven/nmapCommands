@@ -71,3 +71,10 @@ This will display some of the most commonly used nmap commands and a description
 *Note* - The commands with a “-” before them are called “switches”. Ex. -sL or -A
 
 *Note* - In regards to the options menu “It helps people remember the most common options, but is no substitute for the in-depth documentation in the rest of this manual. Some obscure options aren't even included here.” (https://nmap.org/book/man-briefoptions.html)
+
+
+# Target Practice
+
+We can use the website http://scanme.nmap.org/ for test scans and experiment purposes. 
+
+You can try any scan and analyze the response from this site without worrying about getting **blocked** or **blacklisted**. However, be aware that you should still practice **caution** and not try to overwhelm the servers. More info at the link…
